@@ -22,8 +22,8 @@ Market-Group
 Shell-Corp
 Syndicate
 Trade-Syndicate
-Free-Market-Association
-Business-Cooperative
-Business-Group
-Financial-Group
+Free-Market
+Business-Coop
+Group
+Financial
 Monopoly

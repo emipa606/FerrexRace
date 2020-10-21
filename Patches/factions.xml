@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Combat"]/options</xpath>
+    <!-- Outlander "normal" group -->
+    <value>
+      <FerrexSecurityGuard>3</FerrexSecurityGuard>
+      <FerrexProfessional>1</FerrexProfessional>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/guards</xpath>
+    <!-- Outlander Caravan guard group -->
+    <value>
+      <FerrexSecurityGuard>3</FerrexSecurityGuard>
+      <FerrexProfessional>1</FerrexProfessional>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Settlement"]/options</xpath>
+    <!-- Outlander base group -->
+    <value>
+      <FerrexSecurityGuard>3</FerrexSecurityGuard>
+      <FerrexProfessional>1</FerrexProfessional>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[kindDef="Combat" and commonality="100"]/options</xpath>
+    <!-- Pirate "normal" group -->
+    <value>
+      <FerrexAssassinPIR>1</FerrexAssassinPIR>
+      <FerrexAgentPIR>2</FerrexAgentPIR>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[kindDef="Combat" and commonality="30"]/options</xpath>
+    <!-- Pirate "normal" melee only group -->
+    <value>
+      <FerrexMeleePIR>3</FerrexMeleePIR>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName = "Pirate"]/pawnGroupMakers/li[kindDef="Settlement"]/options</xpath>
+    <!-- Pirate base group -->
+    <value>
+      <FerrexAssassinPIR>1</FerrexAssassinPIR>
+      <FerrexAgentPIR>2</FerrexAgentPIR>
+      <FerrexMeleePIR>1</FerrexMeleePIR>
+    </value>
+  </Operation>
+</Patch>
