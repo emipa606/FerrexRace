@@ -1,12 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  <RecipeDef Abstract="True" Name="SurgeryFlesh">
-    <effectWorking>Surgery</effectWorking>
-    <soundWorking>Recipe_Surgery</soundWorking>
-    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-    <workSkill>Medicine</workSkill>
-    <workSkillLearnFactor>16</workSkillLearnFactor>
-  </RecipeDef>
   <RecipeDef Name="SurgeryRTails" ParentName="SurgeryFlesh" Abstract="True">
     <recipeUsers>
       <li>Alien_Ferrex</li>

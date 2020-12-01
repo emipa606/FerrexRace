@@ -2,7 +2,7 @@
 <Defs>
   <PawnKindDef Abstract="True" Name="BaseFerrexPawnKind">
     <race>Alien_Ferrex</race>
-    <combatPower>40</combatPower>
+    <combatPower>60</combatPower>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
     <isFighter>false</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>

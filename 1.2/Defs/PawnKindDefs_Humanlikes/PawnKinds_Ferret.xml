@@ -29,7 +29,7 @@
   </PawnKindDef>
   <!-- ============================ Ferrex Civilian Base ========================== -->
   <PawnKindDef Name="FerrexCivBase" ParentName="FerrexBase" Abstract="True">
-    <combatPower>25</combatPower>
+    <combatPower>100</combatPower>
     <race>Alien_Ferrex</race>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -112,7 +112,7 @@
   <PawnKindDef ParentName="FerrexCivBase">
     <defName>FerrexSecurityGuard</defName>
     <label>security agent</label>
-    <combatPower>50</combatPower>
+    <combatPower>110</combatPower>
     <maxGenerationAge>100</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
@@ -206,12 +206,12 @@
   <PawnKindDef ParentName="FerrexMilBase">
     <defName>FerrexMerc</defName>
     <label>mercenary</label>
-    <combatPower>70</combatPower>
+    <combatPower>120</combatPower>
   </PawnKindDef>
   <PawnKindDef ParentName="FerrexMilBase">
     <defName>FerrexSurveyor</defName>
     <label>surveyor</label>
-    <combatPower>90</combatPower>
+    <combatPower>130</combatPower>
     <minGenerationAge>19</minGenerationAge>
     <gearHealthRange>
       <min>0.7</min>

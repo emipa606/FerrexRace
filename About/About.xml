@@ -20,21 +20,27 @@
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
-  <description>Update of Xens mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Xens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2018387954
 
-[img]https://i.imgur.com/wtwHAQu.png[/img]
+- Added Royalty faction goodwill patch
+- Added back the Hiring Console
 
-Support-chat:
-https://invite.gg/mlie
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/FerrexRace
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/FerrexRace][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-The Ferrex are a ferret(Mustelid) humanoid species.
-This race is attributed with a great degree of business acumen!
-Uses the Alien Framework V2.0 by Erdelf and co.
+[img]https://i.imgur.com/NOW7jU1.png[/img]
 
-Art by Xen. Inspired largely by Ekksu's great ferret art for the Animal collab project!</description>
+The Ferrex are a ferret(Mustelid) humanoid species.
+	This race is attributed with a great degree of business acumen! 
+	 Uses the Alien Framework V2.0 by Erdelf and co.
+	 
+	 Art by Xen. Inspired largely by Ekksu's great ferret art for the Animal collab project!</description>
 </ModMetaData>
