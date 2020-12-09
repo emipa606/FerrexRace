@@ -19,6 +19,7 @@
   </modDependencies>
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
+    <li>pyrce.swimming.modkit</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/WAEzk68.png[/img]
 Update of Xens mod
@@ -26,6 +27,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018387954
 
 - Added Royalty faction goodwill patch
 - Added back the Hiring Console
+- Added compatibility with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1542399915]SwimmingKit[/url]
 
 [img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
