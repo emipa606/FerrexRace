@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/MainButtonDef[defName="Achievements"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementTabDef>
+              <defName>Mlie_Continued</defName>
+              <label>Continued Mods</label>
+            </AchievementsExpanded.AchievementTabDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef>
+              <defName>Ferrex_TheBusinessman</defName>
+              <label>The Businessman</label>
+              <description>Have one Ferrex colonist</description>
+              <tracker Class="AchievementsExpanded.RaceDefTracker">
+                <raceDefs>
+                  <li>
+                    <key>Alien_Ferrex</key>
+                    <value>1</value>
+                  </li>
+                </raceDefs>
+              </tracker>
+              <texPath>Achievements/Ferrex_TheBusinessman</texPath>
+              <points>10</points>
+              <tab>Mlie_Continued</tab>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef>
+              <defName>Ferrex_TheStartup</defName>
+              <label>The Startup</label>
+              <description>Have three Ferrex colonists</description>
+              <tracker Class="AchievementsExpanded.RaceDefTracker">
+                <raceDefs>
+                  <li>
+                    <key>Alien_Ferrex</key>
+                    <value>3</value>
+                  </li>
+                </raceDefs>
+              </tracker>
+              <texPath>Achievements/Ferrex_TheStartup</texPath>
+              <points>20</points>
+              <tab>Mlie_Continued</tab>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef>
+              <defName>Ferrex_TheCorporation</defName>
+              <label>The Corporation</label>
+              <description>Have ten Ferrex colonists</description>
+              <tracker Class="AchievementsExpanded.RaceDefTracker">
+                <raceDefs>
+                  <li>
+                    <key>Alien_Ferrex</key>
+                    <value>10</value>
+                  </li>
+                </raceDefs>
+              </tracker>
+              <texPath>Achievements/Ferrex_TheCorporation</texPath>
+              <points>50</points>
+              <tab>Mlie_Continued</tab>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <IncidentDef>
+              <defName>Ferrex_FerrexJoinsTheColony</defName>
+              <label>Ferrex Joins the Colony</label>
+              <category>Misc</category>
+              <targetTags>
+                <li>Map_PlayerHome</li>
+              </targetTags>
+              <workerClass>IncidentWorker_WandererJoin</workerClass>
+              <letterLabel>Ferrex joins: {PAWN_nameDef}</letterLabel>
+              <letterText>A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing.</letterText>
+              <baseChance>0</baseChance>
+              <pawnKind>Ferrex</pawnKind>
+            </IncidentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.Reward_MapIncident>
+              <defName>Ferrex_AFerrexJoinsTheColony</defName>
+              <label>A Ferrex Joins the Colony</label>
+              <cost>150</cost>
+              <incident>Ferrex_FerrexJoinsTheColony</incident>
+            </AchievementsExpanded.Reward_MapIncident>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
