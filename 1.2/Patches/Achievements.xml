@@ -18,7 +18,16 @@
         <li Class="PatchOperationAdd">
           <xpath>Defs</xpath>
           <value>
-            <AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef Name="Mlie_AchievementParent" Abstract="true">
+              <bgtexPath>Achievements/AchievmentsBG</bgtexPath>
+              <tab>Mlie_Continued</tab>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
               <defName>Ferrex_TheBusinessman</defName>
               <label>The Businessman</label>
               <description>Have one Ferrex colonist</description>
@@ -32,14 +41,13 @@
               </tracker>
               <texPath>Achievements/Ferrex_TheBusinessman</texPath>
               <points>10</points>
-              <tab>Mlie_Continued</tab>
             </AchievementsExpanded.AchievementDef>
           </value>
         </li>
         <li Class="PatchOperationAdd">
           <xpath>Defs</xpath>
           <value>
-            <AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
               <defName>Ferrex_TheStartup</defName>
               <label>The Startup</label>
               <description>Have three Ferrex colonists</description>
@@ -53,14 +61,13 @@
               </tracker>
               <texPath>Achievements/Ferrex_TheStartup</texPath>
               <points>20</points>
-              <tab>Mlie_Continued</tab>
             </AchievementsExpanded.AchievementDef>
           </value>
         </li>
         <li Class="PatchOperationAdd">
           <xpath>Defs</xpath>
           <value>
-            <AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
               <defName>Ferrex_TheCorporation</defName>
               <label>The Corporation</label>
               <description>Have ten Ferrex colonists</description>
@@ -74,7 +81,6 @@
               </tracker>
               <texPath>Achievements/Ferrex_TheCorporation</texPath>
               <points>50</points>
-              <tab>Mlie_Continued</tab>
             </AchievementsExpanded.AchievementDef>
           </value>
         </li>
