@@ -17,6 +17,10 @@
     </startingGoodwill>
     <factionNameMaker>NamerFactionFerrex</factionNameMaker>
     <settlementNameMaker>NamerSettlementFerrex</settlementNameMaker>
+    <colorSpectrum>
+      <li>(0.35, 0.30, 0.60)</li>
+      <li>(0.45, 0.40, 0.90)</li>
+    </colorSpectrum>
     <techLevel>Ultra</techLevel>
     <backstoryFilters>
       <li>
