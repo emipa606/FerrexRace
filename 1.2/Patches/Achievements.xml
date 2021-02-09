@@ -111,8 +111,9 @@
           <value>
             <AchievementsExpanded.Reward_MapIncident>
               <defName>Ferrex_AFerrexJoinsTheColony</defName>
-              <label>A Ferrex Joins the Colony</label>
+              <label>A Ferrex Joins</label>
               <cost>150</cost>
+              <tab>Mlie_Continued</tab>
               <incident>Ferrex_FerrexJoinsTheColony</incident>
             </AchievementsExpanded.Reward_MapIncident>
           </value>
