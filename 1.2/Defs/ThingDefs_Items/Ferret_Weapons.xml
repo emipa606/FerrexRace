@@ -80,7 +80,7 @@
       <speed>65</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseFerrexMakeableGun">
+  <ThingDef ParentName="BaseFerrexGun">
     <defName>Ferrex_Vac</defName>
     <label>Ferrex Vactor</label>
     <description>An advanced submachine gun produced by the Ferrex. They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>
@@ -152,7 +152,7 @@
       <speed>65</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseFerrexMakeableGun">
+  <ThingDef ParentName="BaseFerrexGun">
     <defName>Ferrex_P90x</defName>
     <label>Ferrex F90</label>
     <description>An advanced compact submachine gun produced by the Ferrex. They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>
