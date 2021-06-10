@@ -1,5 +1,8 @@
 # Changelog for FerrexRace
 
+1.0.10.0 - Race-def now inherits BasePawn to make it more compatible
+
+
 1.0.9.0 - The weapons are now no longer craftable, to make them more balanced. Suggested by PlayerEmers
 
 

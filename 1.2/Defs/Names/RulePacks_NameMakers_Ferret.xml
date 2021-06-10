@@ -65,17 +65,6 @@
     <defName>NamerFactionFerrex</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;[subname] [corp]</li>
-        <li>name-&gt;[subname] [corp]</li>
-        <li>name-&gt;[subname] [corp]</li>
-        <li>name-&gt;[subname] [corp]</li>
-        <li>name-&gt;[subname] [politicaladjective] [corp]</li>
-        <li>name-&gt;[corp] of [subname]</li>
-        <li>name-&gt;[politicaladjective] [corp] of [subname]</li>
-        <li>subname-&gt;[wordname] [corp]</li>
-        <li>subname-&gt;[wordname] [corp]</li>
-        <li>subname-&gt;[wordname] [corp]</li>
-        <li>subname-&gt;[direction] [wordname] [corp]</li>
         <li>wordname-&gt;[syl][endsyl] [corp]</li>
         <li>wordname-&gt;[syl][endsyl] [corp]</li>
         <li>wordname-&gt;[syl][endsyl] [corp]</li>
@@ -95,10 +84,6 @@
         <li Class="Rule_File">
           <keyword>direction</keyword>
           <path>Words/Adjectives/CompassDirections</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>politicalunion</keyword>
-          <path>Words/Nouns/PoliticalUnions_Outlander</path>
         </li>
         <li Class="Rule_File">
           <keyword>politicaladjective</keyword>

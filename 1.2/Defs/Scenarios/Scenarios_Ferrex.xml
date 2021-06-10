@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>FerrexScenarioClassic</defName>
+    <label>Ferrex Corp</label>
+    <description>The three of you are tasked with establishing a new branch office, and you were given enough resources by your employer to get started. The higher-ups give you some encouragement, and your team goes into cryosleep. Some time later, you land on this unknown rimworld.</description>
+    <scenario>
+      <summary>Three crashlanded ferrex - the way RimWorld was meant to be played.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>FerrexPlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>DropPods</method>
+        </li>
+        <li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <chance>0.5</chance>
+          <context>PlayerStarter</context>
+          <hideOffMap>True</hideOffMap>
+          <hediff>CryptosleepSickness</hediff>
+          <severityRange>1~1</severityRange>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>800</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealNutrientPaste</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Ferrex_P90x</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Ferrex_Vac</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_BowlerHat</thingDef>
+          <stuff>Cloth</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_Duster</thingDef>
+          <stuff>Cloth</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_CollarShirt</thingDef>
+          <stuff>Cloth</stuff>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <count>3</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>720</count>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>Corporate headquarters has tasked you with establishing a foothold in a new market. With any luck, the natives will be receptive. If they're not, it might be time for a hostile takeover. </text>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+  <ScenarioDef>
+    <defName>FerrexScenarioTribal</defName>
+    <label>Ferrex Tribe</label>
+    <description>Your colleagues were disillusioned with your company's practices, and knew that there had to be a better way. Business used to be conducted with tegridy, but everyone on your home planet has lost their way. You and your team are now ready to start their own business, built on tegridy instead of technology.</description>
+    <scenario>
+      <summary>Five lost Ferrex attempt to build a business with tegridy. Difficult.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>FerrexPlayerColonyTribal</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>5</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+        </li>
+        <li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <chance>0.5</chance>
+          <context>PlayerStarter</context>
+          <hediff>Malnutrition</hediff>
+          <severityRange>0.2~0.4</severityRange>
+        </li>
+        <li Class="ScenPart_SetNeedLevel">
+          <def>SetNeedLevel</def>
+          <chance>1</chance>
+          <context>PlayerStarter</context>
+          <need>Food</need>
+          <levelRange>0~0.1</levelRange>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>200</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Pemmican</thingDef>
+          <count>400</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Club</thingDef>
+          <stuff>Jade</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Ikwa</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Mace</thingDef>
+          <stuff>WoodLog</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_PumpShotgun</thingDef>
+          <count>2</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>SmokeleafJoint</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>3</count>
+          <bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>500</count>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>The boss was very angry after you said that the company's lackin' tegridy. In the middle of the night, you and your colleagues were taken and abandoned on a desolate rim world.
+
+Now, after a harrowing journey, with no friends to turn to, you must build a new business in the wilderness - with tegridy.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+  <ScenarioDef>
+    <defName>FerrexScenarioRichExplorer</defName>
+    <label>The Rich Ferrex</label>
+    <description>You were ready to show the world that you could be successful on your own. With a small loan of a million silver from your father, you set off for a distant rim world. Even though most of that loan was spent on a golden yacht with diamond toilets, you should still have more than enough resources to establish yourself.
+
+Note: Since your starting character will lack some skills, this is an especially difficult scenario in the early game.</description>
+    <scenario>
+      <summary>One rich Ferrex, ready to pull himself up by his bootstraps. Extra difficult.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>FerrexPlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>1</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>DropPods</method>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>DrugProduction</project>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>2000</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>40</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineUltratech</thingDef>
+          <count>10</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Ferrex_P90x</thingDef>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Yayo</thingDef>
+          <count>10</count>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>Most of that small loan has disappeared, but you're now ready to seize the opportunities that this world has to offer.
+ With 2000 silver and a dream, you will be CEO of this planet within a couple years.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+  <ScenarioDef>
+    <defName>FerrexScenarioSolo</defName>
+    <label>Ferrex of Fortune</label>
+    <description>You thought that you would be set for life in your cushy office job, but Karen in Accounting told your boss that they could increase their profit margins by 0.01% by eliminating your position and dropping you off on the nearest planet.
+
+Warning: There is nothing fair about this scenario - it is extremely difficult and death can happen for any reason.</description>
+    <scenario>
+      <summary>Your former employer dropped you on a random world, naked, alone, and utterly unprepared. Can you survive? Extremely difficult and unfair.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>FerrexPlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>1</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>DropPods</method>
+        </li>
+        <li Class="ScenPart_Naked">
+          <def>Naked</def>
+          <chance>1</chance>
+          <context>PlayerStarter</context>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>You are unemployed and on a desert planet with nothing but the fur on your back. Good luck out there, and please note that Rimworld residents are ineligible for unemployment insurance.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

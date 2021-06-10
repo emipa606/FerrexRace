@@ -9,6 +9,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018387954
 - Added back the Hiring Console
 - Increased the combat power of the more basic pawns a bit to not make them to numerous
 - Added compatibility with https://steamcommunity.com/sharedfiles/filedetails/?id=1542399915]SwimmingKit
+- Removed the crafting of the weapons for balance, via PlayerEmers
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
