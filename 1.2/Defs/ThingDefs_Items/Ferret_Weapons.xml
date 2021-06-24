@@ -44,6 +44,7 @@
   </ThingDef>
   <ThingDef Name="BaseFerrexMakeableGun" ParentName="BaseFerrexGun" Abstract="True">
     <recipeMaker>
+      <researchPrerequisite>FerrexWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -80,7 +81,7 @@
       <speed>65</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseFerrexGun">
+  <ThingDef ParentName="BaseFerrexMakeableGun">
     <defName>Ferrex_Vac</defName>
     <label>Ferrex Vactor</label>
     <description>An advanced submachine gun produced by the Ferrex. They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>
@@ -152,7 +153,7 @@
       <speed>65</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseFerrexGun">
+  <ThingDef ParentName="BaseFerrexMakeableGun">
     <defName>Ferrex_P90x</defName>
     <label>Ferrex F90</label>
     <description>An advanced compact submachine gun produced by the Ferrex. They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.</description>

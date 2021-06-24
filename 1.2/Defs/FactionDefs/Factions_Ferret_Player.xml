@@ -27,6 +27,7 @@
     <factionIconPath>World/FerrexBaseIcon</factionIconPath>
     <startingResearchTags>
       <li>ClassicStart</li>
+      <li>FerrexStart</li>
     </startingResearchTags>
     <hairTags>
       <li>FerrexHair</li>
