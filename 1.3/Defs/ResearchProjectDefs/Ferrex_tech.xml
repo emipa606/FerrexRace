@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>FerrexConsole</defName>
+    <label>Ferrex Console</label>
+    <description>Develop a console that will connect with the Ferrex HR network, allowing you to hire Ferrex for a nominal fee.</description>
+    <tags>
+      <li>FerrexStart</li>
+    </tags>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>FerrexBusiness</li>
+    </heldByFactionCategoryTags>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>4.10</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>FerrexWeapons</defName>
+    <label>Ferrex Weapons</label>
+    <description>Allows you to build unique Ferrex weapons.</description>
+    <baseCost>2000</baseCost>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PrecisionRifling</li>
+    </prerequisites>
+    <techLevel>Spacer</techLevel>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>4000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>FerrexBusiness</li>
+    </heldByFactionCategoryTags>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>3.20</researchViewY>
+  </ResearchProjectDef>
+</Defs>

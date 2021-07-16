@@ -10,6 +10,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018387954
 - Increased the combat power of the more basic pawns a bit to not make them to numerous
 - Added compatibility with https://steamcommunity.com/sharedfiles/filedetails/?id=1542399915]SwimmingKit
 - Removed the crafting of the weapons for balance, via PlayerEmers
+- Weapons are now behind tech-print research, via Röstli
+- More starting scenarios, via Röstli
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
@@ -33,7 +35,7 @@ The Ferrex are a ferret(Mustelid) humanoid species.
 	This race is attributed with a great degree of business acumen! 
 	 Uses the Alien Framework V2.0 by Erdelf and co.
 	 
-	 Art by Xen. Inspired largely by Ekksu's great ferret art for the Animal collab project!
+	 Art by Xen. Inspired largely by Ekksu&apos;s great ferret art for the Animal collab project!
 
 
 ![Image](https://i.imgur.com/Rs6T6cr.png)
