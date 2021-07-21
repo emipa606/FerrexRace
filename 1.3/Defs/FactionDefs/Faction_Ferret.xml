@@ -6,6 +6,7 @@
     <description>A colony of the clever Ferrex race.</description>
     <pawnsPlural>Ferrex</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <settlementGenerationWeight>1.2</settlementGenerationWeight>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
