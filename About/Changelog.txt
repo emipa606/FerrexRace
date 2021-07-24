@@ -1,5 +1,8 @@
 # Changelog for FerrexRace
 
+1.0.15.0 - Republish since some graphic function changed between the beta and the release
+
+
 1.0.14.0 - Added confiurable at game-start option
 
 
