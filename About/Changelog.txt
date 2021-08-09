@@ -1,5 +1,8 @@
 # Changelog for FerrexRace
 
+1.0.16.0 - Fixed typo in leather def
+
+
 1.0.15.0 - Republish since some graphic function changed between the beta and the release
 
 

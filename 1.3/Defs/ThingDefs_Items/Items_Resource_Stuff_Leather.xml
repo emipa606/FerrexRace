@@ -3,7 +3,7 @@
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_ferrex</defName>
     <label>ferrex leather</label>
-    <description>Tanned, dried, scraped human skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
+    <description>Tanned, dried, scraped ferrex skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
     <graphicData>
       <color>(142,146,145)</color>
     </graphicData>
