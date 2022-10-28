@@ -22,4 +22,10 @@
     <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
     <li IfModActive="pyrce.swimming.modkit">SwimmingKit</li>
   </v1.3>
+  <v1.4>
+    <li>/</li>
+    <li>1.4</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+    <li IfModActive="pyrce.swimming.modkit">SwimmingKit</li>
+  </v1.4>
 </loadFolders>

@@ -1,18 +1,12 @@
-﻿namespace Ferrex
+namespace Ferrex;
+
+public enum CrafterStatus
 {
-    // Token: 0x02000008 RID: 8
-    public enum CrafterStatus
-    {
-        // Token: 0x0400000C RID: 12
-        Idle,
+    Idle,
 
-        // Token: 0x0400000D RID: 13
-        Filling,
+    Filling,
 
-        // Token: 0x0400000E RID: 14
-        Crafting,
+    Crafting,
 
-        // Token: 0x0400000F RID: 15
-        Finished
-    }
+    Finished
 }

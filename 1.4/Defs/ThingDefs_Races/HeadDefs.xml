@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Ferrex_Female_Average_Normal</defName>
+    <graphicPath>Things/Ferrex/Heads/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Ferrex_Female_Pale_Normal</defName>
+    <graphicPath>Things/Ferrex/Heads/Female_Pale_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Ferrex_Female_Shade_Normal</defName>
+    <graphicPath>Things/Ferrex/Heads/Female_Shade_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Ferrex_Male_Average_Normal</defName>
+    <graphicPath>Things/Ferrex/Heads/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Ferrex_Male_Pale_Normal</defName>
+    <graphicPath>Things/Ferrex/Heads/Male_Pale_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Ferrex_Male_Shade_Normal</defName>
+    <graphicPath>Things/Ferrex/Heads/Male_Shade_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+</Defs>
