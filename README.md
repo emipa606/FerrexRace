@@ -41,6 +41,4 @@ The Ferrex are a ferret(Mustelid) humanoid species.
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2264061915]Last updated 2023-01-09
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2264061915]Last updated 2023-07-24

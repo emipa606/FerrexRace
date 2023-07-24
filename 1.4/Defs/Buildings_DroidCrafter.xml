@@ -60,7 +60,7 @@
     <building />
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <researchPrerequisites>
-      <li>Electricity</li>
+      <li>FerrexConsole</li>
     </researchPrerequisites>
     <modExtensions>
       <li Class="Ferrex.PawnCrafterProperties">
