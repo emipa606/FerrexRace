@@ -1,5 +1,8 @@
 # Changelog for FerrexRace
 
+1.4.5 - Added some body-tags to support special apparel like blindfolds
+
+
 1.4.4 - Fixed the research req for the console
 
 

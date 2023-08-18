@@ -119,6 +119,7 @@
                 <li>UpperHead</li>
                 <li>FullHead</li>
                 <li>HeadAttackTool</li>
+                <li>Eyes</li>
               </groups>
               <parts>
                 <li>
@@ -136,6 +137,7 @@
                       <groups>
                         <li>UpperHead</li>
                         <li>FullHead</li>
+                        <li>Eyes</li>
                       </groups>
                     </li>
                   </parts>
@@ -191,7 +193,18 @@
                   <groups>
                     <li>Teeth</li>
                     <li>FullHead</li>
+                    <li>Mouth</li>
                   </groups>
+                  <parts>
+                    <li>
+                      <def>Tongue</def>
+                      <coverage>0</coverage>
+                      <depth>Inside</depth>
+                      <groups>
+                        <li>FullHead</li>
+                      </groups>
+                    </li>
+                  </parts>
                 </li>
               </parts>
             </li>
@@ -276,6 +289,7 @@
                       <groups>
                         <li>Hands</li>
                         <li>LeftHand</li>
+                        <li>MiddleFingers</li>
                       </groups>
                     </li>
                     <li>
@@ -381,6 +395,7 @@
                       <groups>
                         <li>Hands</li>
                         <li>RightHand</li>
+                        <li>MiddleFingers</li>
                       </groups>
                     </li>
                     <li>
