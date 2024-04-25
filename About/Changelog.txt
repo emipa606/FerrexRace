@@ -1,5 +1,8 @@
 # Changelog for FerrexRace
 
+1.4.6 - Last update, added end-of-life message
+
+
 1.4.5 - Added some body-tags to support special apparel like blindfolds
 
 
